@@ -35,7 +35,7 @@ final class RobotTest extends TestCase
     {
         return [
             "hard" => ["hard", 60.0, ["cleaning_cycle_0" => 60.0, "battery_charging_cycle_0" => 30.0]],
-            "carpet" => ["carpet", 30.0, ["cleaning_cycle_0" => 60.0, "battery_charging_cycle_0" => 30.0]]
+            "carpet" => ["carpet", 30.0, ["cleaning_cycle_0" => 15.0, "battery_charging_cycle_0" => 7.5]]
         ];
     }
 }
