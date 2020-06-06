@@ -16,7 +16,7 @@ composer install
 
 # Screenshots
 
-Output 
+Output for command `php robot.php clean --floor=carpet --area=24`
 
 ![alt text](https://i.ibb.co/drXYq3H/Screenshot-2020-06-06-at-6-48-53-PM.png)
 
