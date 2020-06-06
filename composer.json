@@ -1,0 +1,43 @@
+{
+    "name": "intuitive/robot",
+    "description": "Intuitive Robot tests",
+    "homepage": "https://www.deb.im",
+    "type": "custom-code",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Debabrata Karfa",
+            "email": "im@deb.im"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "symfony/console": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntuitiveApp\\": "src"
+        },
+        "classmap": ["src"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs .",
+        "lint-fix": "phpcbf ."
+    },
+    "extra": {
+        "scripts-description": {
+            "lint": "Analyze code against the PSR2 coding standards with PHP_CodeSniffer",
+            "lint-fix": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+        }
+    }
+}
